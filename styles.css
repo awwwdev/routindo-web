@@ -6,9 +6,6 @@
   --text-secondary: #60646c;
   --border: #e4e4e8;
   --accent: #111111;
-  --draft-bg: #fff4e5;
-  --draft-border: #ffd8a8;
-  --draft-text: #7a4a00;
   --max: 720px;
 }
 
@@ -20,9 +17,6 @@
     --text-secondary: #b0b4ba;
     --border: #2e3135;
     --accent: #ffffff;
-    --draft-bg: #2a2113;
-    --draft-border: #5a4620;
-    --draft-text: #ffd8a8;
   }
 }
 
@@ -99,21 +93,6 @@ ul {
 
 li {
   margin: 6px 0;
-}
-
-/* DRAFT / placeholder notice */
-.draft {
-  background: var(--draft-bg);
-  border: 1px solid var(--draft-border);
-  color: var(--draft-text);
-  border-radius: 12px;
-  padding: 14px 18px;
-  margin: 0 0 32px;
-  font-size: 15px;
-}
-
-.draft strong {
-  color: var(--draft-text);
 }
 
 .ph {
