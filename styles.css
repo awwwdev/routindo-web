@@ -95,13 +95,6 @@ li {
   margin: 6px 0;
 }
 
-.ph {
-  background: var(--surface);
-  border-radius: 4px;
-  padding: 0 4px;
-  font-weight: 600;
-}
-
 hr {
   border: none;
   border-top: 1px solid var(--border);
