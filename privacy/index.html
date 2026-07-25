@@ -82,22 +82,56 @@
           requests. Logs are kept for a limited period.
         </li>
         <li>Your device <strong>time zone</strong>, so reminders resolve to the correct local day.</li>
+        <li>
+          <strong>Sessions and devices.</strong> Each time you sign in we keep a
+          session record holding your IP address and your device’s user agent —
+          which identifies the app or browser and the broad type of device. Where
+          a plan limits how many devices an account may use, we also record a
+          device identifier, so that we can apply the limit and show you which
+          devices are signed in. You can end a session at any time by signing out.
+        </li>
+      </ul>
+
+      <h3>Advertising (free version only)</h3>
+      <ul>
+        <li>
+          <strong>Advertising identifier.</strong> On Android, your device’s
+          <strong>Advertising ID</strong>. On iOS, the
+          <strong>Identifier for Advertisers (IDFA)</strong> — and only if you
+          allow tracking when the system asks you.
+        </li>
+        <li>
+          <strong>Ad delivery information.</strong> Our advertising partner
+          receives your IP address (from which approximate location can be
+          derived), device and app information, and how you interact with the ads
+          it serves.
+        </li>
       </ul>
 
       <p class="muted">
-        We do <strong>not</strong> sell your personal data, show third-party
-        advertising, or use third-party analytics or tracking SDKs in the app.
+        We do <strong>not</strong> sell your personal data for money, and we use
+        no third-party analytics SDKs. The <strong>free version does show
+        third-party advertising</strong>, which means sharing the information
+        above with our advertising partner — see
+        <a href="#advertising">Advertising and your choices</a>. We never share
+        your routines, completion history, or anything else you create with
+        advertisers.
       </p>
 
       <h2>How we use your information</h2>
       <ul>
         <li>To provide, maintain, and sync the Service across your devices.</li>
         <li>To authenticate you and keep your account secure.</li>
+        <li>To apply the features and limits of the plan you are on.</li>
         <li>
           To send <strong>transactional emails</strong> you request or that are
           essential to your account — email verification codes, password-reset
           codes, and an account-deletion confirmation. We do not send marketing
           email without your consent.
+        </li>
+        <li>
+          To display and measure <strong>advertising</strong> in the free version
+          of the app, and to prevent ad fraud.
         </li>
         <li>To prevent fraud, abuse, and security incidents.</li>
         <li>To comply with legal obligations.</li>
@@ -129,6 +163,46 @@
         </li>
       </ul>
 
+      <p>
+        Our <strong>advertising partner is different</strong>, and we want to be
+        clear about it: <strong>Google AdMob</strong> does not act only on our
+        instructions. It uses what it receives for its own purposes as an
+        independent controller — selecting and measuring ads, and detecting ad
+        fraud — under
+        <a href="https://policies.google.com/technologies/partner-sites"
+          >Google’s own privacy terms</a
+        >.
+      </p>
+
+      <h2 id="advertising">Advertising and your choices</h2>
+      <p>
+        The <strong>free version</strong> of Routindo is supported by ads served
+        by <strong>Google AdMob</strong>. A paid plan, where offered, removes
+        them. Ads are the only reason any of your information reaches a company
+        that isn’t running the Service for us.
+      </p>
+      <ul>
+        <li>
+          <strong>Personalized vs non-personalized ads.</strong> Where consent is
+          required — including the EEA, the UK, and Switzerland — we ask before
+          any personalized advertising. You can decline and keep using the app;
+          you’ll see non-personalized ads instead.
+        </li>
+        <li>
+          <strong>Android.</strong> You can reset or delete your Advertising ID
+          under Settings → Privacy → Ads.
+        </li>
+        <li>
+          <strong>iOS.</strong> Tracking happens only with your permission via
+          the system prompt, and you can change it later under Settings →
+          Privacy &amp; Security → Tracking.
+        </li>
+        <li>
+          <strong>United States.</strong> See “Do not sell or share” under
+          <a href="#rights">Your rights</a>.
+        </li>
+      </ul>
+
       <h2>Data retention and deletion</h2>
       <p>
         We keep your information for as long as your account exists. You can
@@ -136,10 +210,13 @@
         (Account → Delete account). Deletion is immediate and permanent: it
         erases your account and all associated data — routines, completion
         history, preferences, sessions, and linked sign-in providers. Server logs
-        and backups are purged on their normal cycle.
+        and backups are purged on their normal cycle. Information our advertising
+        partner has already received is held under its own retention policy;
+        deleting your Routindo account does not recall it, so use the advertising
+        choices above if that matters to you.
       </p>
 
-      <h2>Your rights</h2>
+      <h2 id="rights">Your rights</h2>
       <p>
         Depending on where you live (including under the GDPR and CCPA/CPRA), you
         may have the right to access, correct, delete, or export your data, and to
@@ -148,13 +225,24 @@
         <span class="ph">[privacy@routindo.app]</span>. You may also lodge a
         complaint with your local data-protection authority.
       </p>
+      <p>
+        <strong>Do not sell or share (United States).</strong> We do not sell
+        your personal information for money. Serving personalized ads does count
+        as “sharing” for cross-context behavioral advertising under California’s
+        CCPA/CPRA and comparable state laws. To opt out, decline personalized ads
+        in the app, or email <span class="ph">[privacy@routindo.app]</span> with
+        the subject “Do Not Sell or Share”. We honor opt-out preference signals,
+        including Global Privacy Control, where we are required to.
+      </p>
 
       <h2>International transfers</h2>
       <p>
         Your data may be processed in
-        <span class="ph">[COUNTRY / REGION OF HOSTING]</span>. Where required, we
-        rely on appropriate safeguards (such as Standard Contractual Clauses) for
-        cross-border transfers.
+        <span class="ph">[COUNTRY / REGION OF HOSTING]</span>. Our sign-in and
+        advertising partners operate globally, so ad-related information may be
+        processed outside your country. Where required, we rely on appropriate
+        safeguards (such as Standard Contractual Clauses) for cross-border
+        transfers.
       </p>
 
       <h2>Security</h2>
@@ -166,9 +254,10 @@
 
       <h2>Children</h2>
       <p>
-        Routindo is not directed to children under
-        <span class="ph">[13 / 16]</span>, and we do not knowingly collect their
-        personal data.
+        Routindo is not directed to children under <strong>13</strong>, we do not
+        knowingly collect their personal data, and we do not knowingly serve them
+        personalized advertising. If you believe a child has given us personal
+        data, contact us and we will delete it.
       </p>
 
       <h2>Changes to this policy</h2>
