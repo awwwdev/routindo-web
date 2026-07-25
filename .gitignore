@@ -1,0 +1,3 @@
+# Claude Code — settings.json is shared, the rest is local
+.claude/worktrees/
+.claude/settings.local.json
