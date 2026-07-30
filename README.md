@@ -7,6 +7,7 @@ Plain static HTML, no build step, hosted on **GitHub Pages**.
 index.html          → routindo.app/
 privacy/index.html  → routindo.app/privacy
 terms/index.html    → routindo.app/terms
+delete-account/index.html → routindo.app/delete-account
 styles.css          → shared styles
 CNAME               → custom domain (routindo.app)
 .nojekyll           → serve files as-is (skip Jekyll)
