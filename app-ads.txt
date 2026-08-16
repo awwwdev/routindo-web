@@ -1,0 +1,4 @@
+# Authorized sellers of Routindo's app advertising inventory (IAB Tech Lab app-ads.txt).
+# Buyers reach this file from the Play listing's developer website field, so any bid
+# request claiming to be Routindo through a seller not listed here can be refused.
+google.com, pub-5955286077841964, DIRECT, f08c47fec0942fa0
