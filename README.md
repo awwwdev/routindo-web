@@ -7,15 +7,30 @@ Plain static HTML, no build step, hosted on **GitHub Pages**.
 index.html          → routindo.app/
 privacy/index.html  → routindo.app/privacy
 terms/index.html    → routindo.app/terms
+fr/privacy/index.html → routindo.app/fr/privacy   (French)
+fr/terms/index.html   → routindo.app/fr/terms     (French)
 delete-account/index.html → routindo.app/delete-account
 styles.css          → shared styles
 CNAME               → custom domain (routindo.app)
 .nojekyll           → serve files as-is (skip Jekyll)
 ```
 
-> ⚠️ The Privacy Policy and Terms are **drafts** tailored to how the app works.
-> Fill in every `[PLACEHOLDER]` and have them reviewed by a lawyer or a
-> privacy-compliance tool **before** publishing or submitting to an app store.
+> ⚠️ The Privacy Policy and Terms are **drafts** tailored to how the app works,
+> and have them reviewed by a lawyer or a privacy-compliance tool **before**
+> relying on them.
+
+> ⚠️ **The French pages are not a certified translation.** They exist because
+> Quebec's Bill 96 requires a fully equivalent French version of commercial web
+> pages — explicitly including terms and privacy policies — and the app is
+> distributed in Canada. They were translated carefully but not professionally,
+> and a loose translation of a document people legally agree to is its own risk.
+> Have them reviewed.
+
+> **The four pages change together.** English and French are one document in two
+> languages, so editing one and not the other is what the requirement exists to
+> prevent — "fully equivalent" is the standard, and a French page a version
+> behind is worse than an obvious gap. Re-stamp the "Last updated" / "Dernière
+> mise à jour" date on both.
 
 ## Deploy (one-time)
 
