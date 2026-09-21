@@ -109,6 +109,16 @@
           rappels se rapportent au bon jour local.
         </li>
         <li>
+          <strong>Jeton de notification.</strong> Si vous activez les rappels
+          pour une routine, le système d’exploitation de votre appareil émet un
+          jeton — une adresse qui permet à une notification d’atteindre cet
+          appareil précis — et nous le conservons avec votre compte afin de
+          pouvoir vous les envoyer. Il ne s’agit pas d’un identifiant
+          publicitaire et il ne permet pas de vous reconnaître ailleurs. Nous le
+          supprimons lorsque vous supprimez votre compte, ainsi que lorsque
+          Google nous indique que l’application n’est plus installée.
+        </li>
+        <li>
           <strong>Sessions et appareils.</strong> Chaque fois que vous vous
           connectez, nous conservons un enregistrement de session contenant votre
           adresse IP et l’agent utilisateur de votre appareil — qui indique
@@ -147,6 +157,15 @@
           auprès de la boutique d’applications qu’un achat est authentique,
           maintenir votre accès en phase avec cet abonnement à mesure qu’il se
           renouvelle ou prend fin, et vous aider si un problème survient.
+        </li>
+        <li>
+          Pour <strong>envoyer les rappels que vous demandez</strong>. Lorsque
+          vous activez un rappel, nous envoyons une notification à votre appareil
+          au moment voulu. La notification indique de quelle routine il s’agit,
+          de sorte que son nom s’affiche à votre écran — et, puisque les
+          notifications sous Android sont acheminées par Google, elle transite
+          par Google pour s’y rendre. Voir <strong>Rappels</strong> parmi les
+          fournisseurs de services ci-dessous.
         </li>
         <li>
           Pour envoyer les <strong>courriels transactionnels</strong> que vous
@@ -235,6 +254,18 @@
           y compris le nom de vos routines et le moment où vous en marquez une
           comme faite. Cloudflare agit uniquement suivant nos instructions et
           n’utilise pas ces renseignements à ses propres fins.
+        </li>
+        <li>
+          <strong>Rappels</strong> —
+          <strong>Google (Firebase Cloud Messaging)</strong> achemine les
+          notifications poussées vers votre appareil. Google reçoit votre jeton
+          de notification ainsi que le contenu de la notification, soit le
+          <strong>nom et l’icône</strong> de la routine — de sorte que si vous
+          avez nommé une routine « Prendre mes médicaments », ce texte transite
+          par Google avant d’atteindre votre écran. Android ne dispose d’aucun
+          autre moyen d’acheminer une notification; cela vaut donc pour chaque
+          rappel que vous recevez. Cela ne s’applique pas si vous laissez les
+          rappels désactivés.
         </li>
         <li>
           <strong>Envoi de courriels</strong> — <strong>Resend</strong> envoie

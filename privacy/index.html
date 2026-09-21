@@ -96,6 +96,14 @@
         </li>
         <li>Your device <strong>time zone</strong>, so reminders resolve to the correct local day.</li>
         <li>
+          <strong>Push token.</strong> If you turn on reminders for a routine,
+          your device’s operating system issues a token — an address that lets a
+          notification reach that one device — and we store it with your account
+          so we can send them. It is not an advertising identifier and cannot be
+          used to recognise you anywhere else. We delete it when you delete your
+          account, and when Google tells us the app is no longer installed.
+        </li>
+        <li>
           <strong>Sessions and devices.</strong> Each time you sign in we keep a
           session record holding your IP address and your device’s user agent —
           which identifies the app or browser and the broad type of device. Where
@@ -122,6 +130,14 @@
           with the app store that a purchase is genuine, keeping your access in
           step with it as it renews or ends, and helping you if something goes
           wrong with it.
+        </li>
+        <li>
+          To <strong>send the reminders you ask for</strong>. When you turn on a
+          reminder, we send a notification to your device at that time. The
+          notification says which routine it is for, so its name appears on your
+          screen — and, because notifications on Android are delivered by Google,
+          passes through Google to get there. See
+          <strong>Reminders</strong> under service providers below.
         </li>
         <li>
           To send <strong>transactional emails</strong> you request or that are
@@ -195,6 +211,17 @@
           those requests — including routine names and when you mark something
           done. It acts only on our instructions and does not use this for its
           own purposes.
+        </li>
+        <li>
+          <strong>Reminders</strong> —
+          <strong>Google (Firebase Cloud Messaging)</strong> delivers push
+          notifications to your device. It receives your push token and the
+          content of the notification, which is the routine’s
+          <strong>name and icon</strong> — so if you have named a routine “Take
+          medication”, that text passes through Google on its way to your
+          screen. Android has no other means of delivering a notification, so
+          this applies to every reminder you receive. It does not apply if you
+          leave reminders off.
         </li>
         <li>
           <strong>Email delivery</strong> — <strong>Resend</strong> sends the
