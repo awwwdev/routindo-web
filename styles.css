@@ -1,4 +1,13 @@
 /* Routindo static site — shared styles. Plain CSS, no build step. */
+
+/* Titles use Cooper, the app's display serif (assets/Cooper-OFL.txt). */
+@font-face {
+  font-family: "Cooper";
+  src: url("/assets/Cooper-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
 :root {
   --bg: #ffffff;
   --surface: #f0f0f3;
@@ -7,17 +16,7 @@
   --border: #e4e4e8;
   --accent: #111111;
   --max: 720px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #000000;
-    --surface: #212225;
-    --text: #ffffff;
-    --text-secondary: #b0b4ba;
-    --border: #2e3135;
-    --accent: #ffffff;
-  }
+  --serif: "Cooper", Georgia, "Times New Roman", serif;
 }
 
 * {
@@ -26,6 +25,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  color-scheme: light;
 }
 
 body {
@@ -52,6 +52,13 @@ a {
 
 a:hover {
   opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  font-weight: 600;
 }
 
 h1 {
@@ -119,6 +126,13 @@ footer a {
   justify-content: center;
 }
 
+.mark {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 0 24px;
+}
+
 .logo {
   font-size: 44px;
   letter-spacing: -1px;
@@ -130,6 +144,20 @@ footer a {
   color: var(--text-secondary);
   margin: 0 0 32px;
   max-width: 34ch;
+}
+
+/* Google's official badge, unmodified — the transparent border baked into the PNG is
+   the clear space their brand guidelines require, so don't crop it. */
+.play-badge {
+  align-self: flex-start;
+  /* The badge's own clear space already sits below it. */
+  margin: 0 0 28px -10px;
+}
+
+.play-badge img {
+  display: block;
+  width: 194px;
+  height: auto;
 }
 
 .links {
